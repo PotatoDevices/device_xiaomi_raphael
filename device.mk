@@ -50,6 +50,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
 
+TARGET_USE_QTI_BT_STACK = true
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
